@@ -14,6 +14,12 @@ export default class BaseLayout extends Component {
           <div><button className="btn"><Link to="/portfolio">Portfolio</Link></button></div>
         </header>
         {this.props.children}
+        <footer>
+          <a href = "https://www.linkedin.com/in/victoria-coleman-00010275/" > LinkedIn </a>
+          <a href = "https://www.instagram.com/handmadebyvi/?hl=en" > Instagram </a>
+          <a href = "https://www.patreon.com/victoriarain" > Patreon </a>
+          <a href = "https://www.facebook.com/viphotography.raleigh/" > ViPhotography </a>
+        </footer>
       </div>
     );
   }

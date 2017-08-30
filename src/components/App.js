@@ -5,7 +5,8 @@ import '../styles/App.css';
 class App extends Component {
   render() {
     return (
-      <h1> This is the landing page </h1>
+      <h1> Hi! I'm Victoria. Click on one of the links above to 
+      learn a little more about me! </h1>
     );
   }
 }
