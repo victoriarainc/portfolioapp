@@ -14,12 +14,14 @@ body {
 
 h2 {
   background-color: #efc6c6;
+  font-family: 'Caveat', cursive;
   padding: 0 1%;
   width: 8em;
 }
 
 h3 {
   background-color: #efc6c6;
+  font-family: 'Caveat', cursive;
   width: 9em;
   padding: 0 1%;
   margin: 2px 0;
@@ -34,6 +36,7 @@ p, a {
 header {
   display: flex;
   justify-content: space-around;
+  font-family: 'Caveat', cursive;
   padding: 4% 0;
   width: 100%;
   color: #efc6c6;
@@ -72,6 +75,10 @@ footer a {
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
+}
+
+.bullet {
+  margin-bottom: 1em;
 }
 
  /*---------- references --------*/

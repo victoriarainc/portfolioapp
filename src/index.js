@@ -29,7 +29,7 @@ ReactDOM.render(
         <Route path="/about" component={About} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/home" component={Home} />
-        <Route path="/" component={App} />
+        <Route exact path="/" component={App} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>
