@@ -1,5 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Open+Sans+Condensed:300');
+
+ /*============ GLOBAL ===============*/
+* {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-size: 22px;
+}
+
+ /*============= NAV/HEADER =================*/
+header {
+  display: flex;
+  justify-content: center;
+  padding: 4% 0;
+  width: 100%;
+}
+
+.link {
+  margin: 0 30px;
+}
+
+/*============== CHILDREN ===========*/
+.body {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+/*======== CONTACT/FOOTER ============*/
+footer {
+  display: flex;
+  background-color: #c49191;
+  padding: 4% 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-around;
+  color: white;
 }

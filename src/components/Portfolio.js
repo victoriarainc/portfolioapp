@@ -6,9 +6,15 @@ export default class Portfolio extends Component {
   }
   render () {
     return (
-      <section>
+      <section className="portfolio">
+        <div>
+      
+        </div>
+
+        <div>
         <h2>Victoria Rain</h2>
         <p> Portfolio </p>
+        </div>
       </section>
     )
   }
