@@ -12,6 +12,8 @@ export default class BaseLayout extends Component {
           <div className="link"><Link to="/home">Home</Link></div>
           <div className="link"><Link to="/about">About</Link></div>
           <div className="link"><Link to="/portfolio">Portfolio</Link></div>
+          <div className="link"><Link to="/references">References</Link></div>
+          <div className="link"><Link to="/contact">Contact</Link></div>
         </header>
         <section className="body">
         {this.props.children}
