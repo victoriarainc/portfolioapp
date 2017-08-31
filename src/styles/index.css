@@ -12,12 +12,35 @@ body {
   font-size: 22px;
 }
 
+h2 {
+  background-color: #efc6c6;
+  padding: 0 1%;
+  width: 35%
+}
+
+h3 {
+  background-color: #efc6c6;
+  width: 20%;
+  padding: 0 1%;
+  margin: 2px 0;
+}
+
+p {
+  padding: 0 1%;
+  margin: 1px 1px;
+}
+
  /*============= NAV/HEADER =================*/
 header {
   display: flex;
   justify-content: center;
   padding: 4% 0;
   width: 100%;
+  color: #efc6c6;
+}
+
+header a:visited {
+  color: #c49191;
 }
 
 .link {
@@ -28,7 +51,7 @@ header {
 .body {
   display: flex;
   justify-content: center;
-  padding: 5%;
+  padding: 0 5%;
 }
 
 /*======== CONTACT/FOOTER ============*/
@@ -40,5 +63,16 @@ footer {
   bottom: 0;
   width: 100%;
   justify-content: space-around;
+}
+
+footer a {
   color: white;
+}
+
+ /*--------- portfolio --------*/
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
 }
