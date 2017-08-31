@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 export default class BaseLayout extends Component {
   render() {
     return (
       <div>
         <header>
-          <div className="link"><Link to="/">Landing</Link></div>
-          <div className="link"><Link to="/home">Home</Link></div>
-          <div className="link"><Link to="/about">About</Link></div>
-          <div className="link"><Link to="/portfolio">Portfolio</Link></div>
-          <div className="link"><Link to="/references">References</Link></div>
-          <div className="link"><Link to="/contact">Contact</Link></div>
+          <div className="link"><NavLink to="/">Landing</NavLink></div>
+          <div className="link"><NavLink to="/home">Home</NavLink></div>
+          <div className="link"><NavLink to="/about">About</NavLink></div>
+          <div className="link"><NavLink to="/portfolio">Portfolio</NavLink></div>
+          <div className="link"><NavLink to="/references">References</NavLink></div>
+          <div className="link"><NavLink to="/contact">Contact</NavLink></div>
         </header>
         <section className="body">
         {this.props.children}
