@@ -13,7 +13,7 @@ export default class BaseLayout extends Component {
           <div className="link"><NavLink to="/references">References</NavLink></div>
           <div className="link"><NavLink to="/contact">Contact</NavLink></div>
         </header>
-        <section className="body">
+        <section className="propsBody">
         {this.props.children}
         </section>
         <footer>
