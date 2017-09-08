@@ -8,13 +8,16 @@ export default class About extends Component {
     return (
       <section>
 
+        <div className="aboutDiv">
         <h2>About Victoria Rain</h2>
         <p>Born and raised in North Carolina - Raleigh resident since 2011
         and homeowner for 3 years. I'm an artist, creative, maker, photographer,
         and developer but most of all passionate about seeing ideas become
         reality. Whether those dreams are mine or not I bring all of my experience
         and passion to the table.</p>
+        </div>
 
+        <div className="aboutDiv">
         <h3>Community</h3>
         <p>Raleigh has become home for me over the last few years. I started
         volunteering for my community in high school by assisting Raleigh
@@ -25,14 +28,18 @@ export default class About extends Component {
         to our LGBT community and help organize events such as Out!Raleigh that
         aims to celebrate and empower. I intend to continue to work with Kelly Taylor
         and Jim Manchester on maintaining the center's website and mobile application.</p>
+        </div>
 
+        <div className="aboutDiv">
         <h3>Photography</h3>
         <p>Vi Photography is a hobby of mine that allows me to continue to connect
         with the Raleigh community and use the soft skills I've developed over the
         years in retail. I strongly believe in communication through body language
         and my history in Psychology and art helps breed a candid and authentic feel
         in my photos.</p>
+        </div>
 
+        <div className="aboutDiv">
         <h3>Handmade by Vi</h3>
         <p>Another way I connect with Raleigh is through my crafts. After teaching and
         creating at Paper Source for over a year I wanted to take the skills I had
@@ -46,6 +53,7 @@ export default class About extends Component {
         community can also follow and support HandmadebyVi through <a href='www.patreon.com/victoriarain'>Patreon.com</a>
         , an online platform that provides artists a space to send monthly gifts to participants for
         their contributions.</p>
+        </div>
 
       </section>
     )

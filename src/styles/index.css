@@ -12,6 +12,11 @@ body {
   font-size: 22px;
 }
 
+.propsBody {
+    margin: 1.5em 0;
+    padding: 0 2em;
+}
+
 h2 {
   background-color: #efc6c6;
   font-family: 'Caveat', cursive;
@@ -24,13 +29,16 @@ h3 {
   font-family: 'Caveat', cursive;
   width: 9em;
   padding: 0 1%;
-  margin: 2px 0;
+  margin: 1em 0;
 }
 
 p, a {
   margin: 2px 1px;
 }
 
+blockquote {
+  width: 80%;
+}
 
  /*============= NAV/HEADER =================*/
 header {
@@ -58,7 +66,7 @@ header a:visited {
 footer {
   display: flex;
   background-color: #c49191;
-  padding: 4% 0;
+  padding: 2% 0;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -99,4 +107,16 @@ footer a {
 
 .contactType {
   margin-bottom: 1em;
+}
+
+/*=========== MEDIA QUERIES ===============*/
+@media only screen and (max-width:750px) {
+  .allRef {
+    flex-flow: column nowrap;
+    justify-content: space-between;
+  }
+
+  .ref {
+    margin-bottom:20em;
+  }
 }
