@@ -8,8 +8,6 @@ export default class BaseLayout extends Component {
     return (
       <div>
         <header>
-          <div className="link"><NavLink to="/">Landing</NavLink></div>
-          <div className="link"><NavLink to="/home">Home</NavLink></div>
           <div className="link"><NavLink to="/about">About</NavLink></div>
           <div className="link"><NavLink to="/portfolio">Portfolio</NavLink></div>
           <div className="link"><NavLink to="/references">References</NavLink></div>
