@@ -17,7 +17,7 @@ import About from './components/About';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import BaseLayout from './components/BaseLayout';
-import Contact from './components/Contact';
+import Resume from './components/Resume';
 import References from './components/References';
 
 ReactDOM.render(
@@ -25,7 +25,7 @@ ReactDOM.render(
     <BaseLayout>
       <Switch>
         <Route path="/references" component={References} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/resume" component={Resume} />
         <Route path="/about" component={About} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/home" component={Home} />

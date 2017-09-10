@@ -77,6 +77,20 @@ footer a {
   color: white;
 }
 
+/*---------- landing ------------*/
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headshot {
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+}
+
  /*--------- portfolio --------*/
 .portfolio {
   display: flex;

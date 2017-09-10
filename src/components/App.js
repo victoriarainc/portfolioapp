@@ -7,8 +7,8 @@ import '../images/vi.jpg'
 class App extends Component {
   render() {
     return (
-      <div>
-      <img src="../images/vi.jpg" />
+      <div className="landing">
+      <img src={require("../images/vi.jpg")} className="headshot"/>
       <h1> Hi! I'm Victoria. </h1>
       <p>
       Click on one of the links above to
