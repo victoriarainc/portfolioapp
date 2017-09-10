@@ -7,19 +7,14 @@ export default class Portfolio extends Component {
   render () {
     return (
       <section className="portfolio">
-        <div>
 
-        </div>
-
-        <div className="resume">
-          <h3> Core Competencies </h3>
-            <section className="bullet">
-             <p className="line">
+        <div className="skills">
+          <h3 className="skillsh3"> Core Competencies </h3>
+            <p className="bullet">
              Git & GitHub - HTML/CSS - JavaScript - React - Node - Mongo/Mongoose - SQL/Postgres - jQuery - Bootstrap
-             </p>
-            </section>
+            </p>
 
-          <h3> Experience </h3>
+          <h3 className="skillsh3"> Experience </h3>
             <p className="bullet">
             My background is varied from customer service and childcare to crafts
             and demonstrations. I graduated with an Associates in Psychology, my
@@ -27,7 +22,7 @@ export default class Portfolio extends Component {
             in the Social Sciences.
             </p>
 
-          <h3> Projects </h3>
+          <h3 className="skillsh3"> Projects </h3>
             <p className="bullet">
             Follow the links below to view some of my ongoing projects. Instagram
             will lead you to HandmadebyVi - a crafty wonderland with a focus on

@@ -13,19 +13,19 @@ body {
 }
 
 .propsBody {
-    margin: 1.5em 0 8em 0;
+    margin: 0 0 8em 0;
     padding: 0 2em;
 }
 
 h2 {
-  background-color: #efc6c6;
+  background-color: #ebd7cc;
   font-family: 'Caveat', cursive;
   padding: 0 1%;
   width: 8em;
 }
 
 h3 {
-  background-color: #efc6c6;
+  background-color: #ebd7cc;
   font-family: 'Caveat', cursive;
   width: 9em;
   padding: 0 1%;
@@ -65,7 +65,7 @@ header a:visited {
 /*======== CONTACT/FOOTER ============*/
 footer {
   display: flex;
-  background-color: #c49191;
+  background-color: black;
   padding: 2% 0;
   position: fixed;
   bottom: 0;
@@ -74,7 +74,7 @@ footer {
 }
 
 footer a {
-  color: white;
+  color: #ebd7cc;
 }
 
 /*---------- landing ------------*/
@@ -85,22 +85,32 @@ footer a {
   align-items: center;
 }
 
-.headshot {
+.image {
   height: 200px;
   width: 200px;
   border-radius: 10%;
 }
 
  /*--------- portfolio --------*/
-.portfolio {
+
+.skills {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 100%;
+  flex-flow: row wrap;
 }
 
 .bullet {
   margin-bottom: 1em;
+  width: 70%;
+  padding: 3%;
+}
+
+.skillsh3 {
+  height: 150px;
+  width: 20%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
  /*---------- references --------*/
@@ -114,13 +124,20 @@ footer a {
    height: 400px;
  }
 
- /*------- contact ---------*/
-.contact {
-  width: 100%;
-}
+ /*------- resume ---------*/
 
 .contactType {
   margin-bottom: 1em;
+}
+
+.pdf {
+  height: 900px;
+  width: 700px;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
 }
 
 /*=========== MEDIA QUERIES ===============*/
@@ -132,5 +149,21 @@ footer a {
 
   .ref {
     margin-bottom:20em;
+  }
+
+  .skills {
+    flex-direction: column;
+  }
+
+  .bullet {
+    width: 100%;
+  }
+
+  .skillsh3 {
+    width: 100%;
+  }
+
+  .resume {
+    flex-direction: column;
   }
 }
