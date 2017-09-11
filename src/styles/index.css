@@ -67,8 +67,7 @@ footer {
   display: flex;
   background-color: black;
   padding: 2% 0;
-  position: fixed;
-  bottom: 0;
+
   width: 100%;
   justify-content: space-around;
 }
@@ -93,24 +92,50 @@ footer a {
 
  /*--------- portfolio --------*/
 
+.portfolio {
+  width: 100%;
+}
+
 .projectWrapper {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
+}
+
+.projectWrapper a {
+  font-weight: bolder;
+  background-color: #ebd7cc;
+  color: black;
+  padding: 2%;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .bullet {
   margin-bottom: 1em;
-  width: 70%;
-  padding: 3%;
 }
 
-.project {
+.bulletWrapper {
+  margin-bottom: 1em;
+  width: 70%;
+  padding: 3%;
+  width: 100%;
+}
+
+.projecth3 {
   height: 150px;
   width: 20%;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.projectTools {
+  font-weight: bold;
+  margin-bottom: 1em;
+  background-color: black;
+  color: white;
+  padding: 2%;
 }
 
  /*---------- references --------*/
@@ -140,6 +165,17 @@ footer a {
   justify-content: center;
 }
 
+.resumePDF {
+  margin-bottom: 2em;
+}
+
+.downloadLink {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  box-shadow: 10px 10px 5px grey;
+}
+
 /*=========== MEDIA QUERIES ===============*/
 @media only screen and (max-width:750px) {
   .allRef {
@@ -165,5 +201,17 @@ footer a {
 
   .resume {
     flex-direction: column;
+  }
+
+  .projectWrapper {
+    flex-direction: column;
+  }
+
+  .projecth3 {
+    width: 100%;
+  }
+
+  .bullet {
+    width: 100%;
   }
 }

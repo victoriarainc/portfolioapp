@@ -31,7 +31,7 @@ export default class Resume extends Component {
           <div className="resumePDF">
             <img src={require("../images/Resume.jpg")} className="pdf"/>
           </div>
-          <a href="https://drive.google.com/file/d/0B8xz73jMvER_bFZEYldHS2huQlk/view?usp=sharing">Download pdf.</a>
+          <a href="https://drive.google.com/file/d/0B8xz73jMvER_bFZEYldHS2huQlk/view?usp=sharing" className="downloadLink">Download pdf</a>
         </section>
 
       </section>
