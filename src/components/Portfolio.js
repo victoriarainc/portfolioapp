@@ -8,30 +8,21 @@ export default class Portfolio extends Component {
     return (
       <section className="portfolio">
 
-        <div className="skills">
-          <h3 className="skillsh3"> Core Competencies </h3>
-            <p className="bullet">
-             Git & GitHub - HTML/CSS - JavaScript - React - Node - Mongo/Mongoose - SQL/Postgres - jQuery - Bootstrap
-            </p>
+        <div className="projectWrapper">
+          <h3 className="project"> HandmadebyVi </h3>
+            <p className="bullet">is a passion project of mine that brings to life my handmade paper crafts and service on the web. I lead the  product design, creation, photography, and social media presence of this business.</p>
+            <p>TOOLS: HTML, CSS, REACT, & GIT</p>
+            <a href="https://github.com/victoriarainc/ecommerce">Github</a>
 
-          <h3 className="skillsh3"> Experience </h3>
-            <p className="bullet">
-            My background is varied from customer service and childcare to crafts
-            and demonstrations. I graduated with an Associates in Psychology, my
-            underlying passion that drives all of my pursuits, and Honors credit
-            in the Social Sciences.
-            </p>
+          <h3 className="skillsh3"> ViPhotography </h3>
+            <p className="bullet">is a hobby that I use to hone my creativity, connect to the community, and volunteer for local events such as Out!Raleigh. </p>
+            <p>TOOLS: HTML, CSS, REACT, & GIT</p>
+            <a href="https://github.com/victoriarainc/ViPhotography">In progress</a>
 
-          <h3 className="skillsh3"> Projects </h3>
-            <p className="bullet">
-            Follow the links below to view some of my ongoing projects. Instagram
-            will lead you to HandmadebyVi - a crafty wonderland with a focus on
-            paper, recycling, and reuse. Patreon is a related project. It is a
-            site that connects artists to fans and provides a kickstarter/subscription
-            box type platform for any type of creator to post to. ViPhotography
-            is a Facebook page that I manage and post albums of candid portraits to.
-
-            </p>
+          <h3 className="skillsh3"> From Craft to Code </h3>
+            <p className="bullet">is a blog that I designed and created to talk about my experience at The Iron Yard as I learned  front and back end development skills. I used my posts as a tool to guide other students in our projects and created a Slack to be a resource for others.</p>
+            <p>TOOLS: BLOGGER, HTML, CSS</p>
+            <a href="http://fromcrafttocode.blogspot.com/">Github</a>
 
         </div>
       </section>
