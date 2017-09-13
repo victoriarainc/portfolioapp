@@ -22,6 +22,7 @@ h2 {
   font-family: 'Caveat', cursive;
   padding: 0 1%;
   width: 8em;
+  margin-top: 0;
 }
 
 h3 {
@@ -38,6 +39,8 @@ p, a {
 
 blockquote {
   width: 80%;
+  box-shadow: 10px 10px 5px grey;
+  padding: 1em;
 }
 
  /*============= NAV/HEADER =================*/
@@ -88,6 +91,14 @@ footer a {
   height: 200px;
   width: 200px;
   border-radius: 10%;
+}
+
+/*----------- about ------------*/
+
+.aboutDiv{
+  box-shadow: 10px 10px 5px grey;
+  padding: 2em;
+  margin-bottom: 1em;
 }
 
  /*--------- portfolio --------*/
