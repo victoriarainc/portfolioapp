@@ -38,7 +38,7 @@ p, a {
 }
 
 blockquote {
-  width: 80%;
+  width: 70%;
   box-shadow: 10px 10px 5px grey;
   padding: 1em;
 }
@@ -156,8 +156,9 @@ footer a {
  }
 
  .ref {
+   display: flex;
+   flex-direction: column;
    width: 50%;
-   height: 400px;
  }
 
  /*------- resume ---------*/
@@ -189,13 +190,17 @@ footer a {
 
 /*=========== MEDIA QUERIES ===============*/
 @media only screen and (max-width:750px) {
+  blockquote {
+    width: 100%;
+  }
+
   .allRef {
     flex-flow: column nowrap;
     justify-content: space-between;
   }
 
   .ref {
-    margin-bottom:20em;
+    margin-bottom:3em;
   }
 
   .skills {
