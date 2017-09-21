@@ -12,9 +12,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
 // Import components
-import App from './components/App';
 import About from './components/About';
-import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import BaseLayout from './components/BaseLayout';
 import Resume from './components/Resume';
@@ -28,8 +26,6 @@ ReactDOM.render(
         <Route path="/resume" component={Resume} />
         <Route path="/about" component={About} />
         <Route path="/portfolio" component={Portfolio} />
-        <Route path="/home" component={Home} />
-        <Route exact path="/" component={App} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>
